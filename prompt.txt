@@ -1,4 +1,4 @@
-Please implement the VIVO FIFO in sources/vivo_fifo.sv.
+Please implement the VIVO FIFO in rtl/vivo_fifo.sv.
 
 All behavior is defined in docs/Specifications.md. Your RTL must follow every rule in that document with no missing cases or added assumptions.
 
@@ -33,4 +33,4 @@ Internal logic must wrap pointers modulo DEPTH_ELEMS. No elements may be dropped
 
 Only synthesizable SystemVerilog is allowed. Do not use behavioral queues, dynamic arrays, DPI, classes, or anything that infers latches.
 
-You may only edit sources/vivo_fifo.sv.
+You may only edit rtl/vivo_fifo.sv.
