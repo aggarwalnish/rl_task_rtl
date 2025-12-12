@@ -4,7 +4,7 @@
 
 module vivo_fifo #(
     parameter int ELEM_WIDTH     = 8,   // Width of each data element
-    parameter int DEPTH          = 16,  // Total capacity in elements
+    parameter int DEPTH          = 16,  // Total capacity (see docs)
     parameter int IN_ELEMS_MAX   = 4,   // Max elements that can be pushed per cycle
     parameter int OUT_ELEMS_MAX  = 4    // Max elements that can be popped per cycle
 )(
